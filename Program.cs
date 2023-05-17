@@ -4,7 +4,7 @@ namespace Calculator
 {
     class Program
     {
-        static void addition()
+        static void Addition()
         {
             int a, b, result;
 
@@ -17,10 +17,12 @@ namespace Calculator
 
             Console.WriteLine("{0} + {1} = {2}", a, b, result);
         }
+
+
         static void Main(string[] args)
         {
             Console.WriteLine("Calculator"); 
-            Program.addition();
+            Program.Addition();
         }
     }
 }
