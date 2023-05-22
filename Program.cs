@@ -29,7 +29,7 @@ namespace Calculator
                         Multiplication.Multiply();
                         break;
                     case 4:
-                        Console.WriteLine();
+                        Division.Divide();
                         break;
                     case 5:
                         Environment.Exit(0);
