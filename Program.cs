@@ -25,7 +25,7 @@ namespace Calculator
                         Addition.Add();
                         break;
                     case 2:
-                        Console.WriteLine();
+                        Substraction.Substract();
                         break;
                     case 3:
                         Console.WriteLine();
