@@ -4,8 +4,6 @@ namespace Calculator
 {
     class Program
     {
-        
-
         static void Main(string[] args)
         {
             while (true)
@@ -28,7 +26,7 @@ namespace Calculator
                         Substraction.Substract();
                         break;
                     case 3:
-                        Console.WriteLine();
+                        Multiplication.Multiply();
                         break;
                     case 4:
                         Console.WriteLine();
